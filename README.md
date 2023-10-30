@@ -1,7 +1,14 @@
+# !!!!NOTE: Only used to merge [#148](https://github.com/miekg/pkcs11/pull/148). Should move back to miekg/pkcs11 once its merged. !!!!
+
 # PKCS#11
 
 This is a Go implementation of the PKCS#11 API. It wraps the library closely, but uses Go idiom where
 it makes sense. It has been tested with SoftHSM.
+
+The version used is "PKCS #11 Cryptographic Token Interface Base Specification Version 3.0", see
+<http://docs.oasis-open.org/pkcs11/pkcs11-base/v3.0/pkcs11-base-v3.0.html>. Note that the header
+files listed there are *broken*, the fixed ones live in a [github repo](https://github.com/oasis-tcs/pkcs11/tree/master/working/headers).
+From that repo commit 188b0b1024403f1907b6cf5fedc0bc148c2221a2 was pulled into this repository.
 
 ## SoftHSM
 
