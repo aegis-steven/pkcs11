@@ -1,3 +1,5 @@
+# !!!!NOTE: Only used to merge [#148](https://github.com/miekg/pkcs11/pull/148). Should move back to miekg/pkcs11 once its merged. !!!!
+
 # PKCS#11
 
 This is a Go implementation of the PKCS#11 API. It wraps the library closely, but uses Go idiom where
